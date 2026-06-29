@@ -1,4 +1,4 @@
- 🏋️ FitLife Gym Website
+ 🏋️ Pro FitLife Gym Website
 
 A responsive gym website created as part of **Task 2** of my **Web Development Internship at ApexPlanet Software Pvt. Ltd.**
 
