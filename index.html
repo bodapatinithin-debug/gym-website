@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ProLife Gym</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h2 class="logo">ProLife Gym</h2>
+
+        <nav>
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#programs">Programs</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section id="home" class="hero">
+
+        <h1>Transform Your Body</h1>
+
+        <p>Join the best fitness center in our city.</p>
+
+        <button>Join Now</button>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+
+            proLife Gym provides modern equipment,
+
+            experienced trainers and customized workout plans
+
+            to help you achieve your fitness goals.
+
+        </p>
+
+    </section>
+
+    <!-- Programs -->
+
+    <section id="programs">
+
+        <h2>Our Available Programs</h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>Weight Training</h3>
+
+                <p>Build your muscle & strength.</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Cardio</h3>
+
+                <p>Improve stamina & heart health.</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Yoga</h3>
+
+                <p>Improve flexibility & relaxation.</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>CrossFit</h3>
+
+                <p>High intensity functional workouts.</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Zumba</h3>
+
+                <p>Dance fitness sessions.</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Personal Training</h3>
+
+                <p>One-to-one coaching.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Workout Planner -->
+
+    <section>
+
+        <h2>Make your Workout Planner</h2>
+
+        <input
+            type="text"
+            id="task"
+            placeholder="Enter today's workout">
+
+        <button onclick="addTask()">
+
+            Add Workout
+
+        </button>
+
+        <ul id="taskList"></ul>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email">
+
+            <textarea
+                id="message"
+                placeholder="Your Message"></textarea>
+
+            <button type="submit">
+
+                Submit
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            © 2026 ProLife Gym | All Rights Reserved
+
+        </p>
+
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
